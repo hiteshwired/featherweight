@@ -1,0 +1,27 @@
+# Build artifacts
+*.o
+*.so
+liblwp.so
+
+# Compiled demos and tests
+nums
+hungry
+snakes
+lwptest
+lwpedge
+demos/hungry
+demos/nums
+demos/snakes
+
+# Submission archive
+*.tgz
+
+# Instructor-supplied prebuilt binaries (not mine to redistribute)
+libsnakes.so
+libPLN.so
+lib64/
+
+# Editor / OS cruft
+*~
+TAGS
+.DS_Store
